@@ -19,7 +19,7 @@ conda activate opendap-viewer
 jupyter notebook
 ```
 
-![Screenshot](/screenshots/gbr4.png?raw=true)
+![Screenshot](/screenshots/gbr4.gif?raw=true)
 
 ## Example data
 
