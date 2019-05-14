@@ -10,9 +10,7 @@ from itkwidgets import view
 import sys
 
 #  !{sys.executable} - m pip install dask toolz scikit-image matplotlib itk-io itkwidgets netCDF4
-
 #  !{sys.executable} - m pip install toolz itk-io itkwidgets
-
 
 # create dataset from Unidata's opendap endpoint
 url = 'http://dapds00.nci.org.au/thredds/dodsC/fx3/model_data/gbr4_2.0.ncml'
