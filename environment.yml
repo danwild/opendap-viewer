@@ -1,64 +1,16 @@
 name: opendap-viewer
 channels:
   - conda-forge
+  - defaults
 dependencies:
   - python=3.6
-  # itk stuff
-  - itkwidgets=0.16.1
-  # core scipy packages
-  - numpy=1.16.2
-  - scipy=1.2.1
-  - matplotlib=3.0.3
-  - pandas=0.24.2
-  - xarray=0.12.0
-  # data science stuff
-  - scikit-image=0.14.2
-  - dask-ml=0.12.0
-  # dask-related
-  - dask=1.1.4
-  - distributed=1.26.1
-  - graphviz
-  - kubernetes
-  - dask-kubernetes
-  - dask-jobqueue
-  - python-graphviz
-  # pyviz
-  - bokeh=1.0.4
-  - holoviews=1.11.3
-  - panel
-  - geoviews
-  - hvplot
-  - geoviews
-  - datashader
-  - tornado<6.0 # https://github.com/pyviz/holoviews/pull/3560
-  # geospatial
-  - iris
-  - cartopy
-  - geopandas
-  - rasterio
-  - netcdf4
-  - h5py
-  - h5netcdf
-  # geoscience-related
-  - climlab
-  - metpy
-  - satpy
-  - gsw
-  - eofs
-  - esmpy
-  - xesmf
-  - windspharm
-  # jupyter-related
-  - nbserverproxy
-  - jupyter
-  - jupyterlab
-  - jupyterhub
-  - ipywidgets
-  - ipyleaflet
-  # xarray-related
-  - xgcm
-  - xrft
+  - numpy
+  - itk
   - pip:
-      - regionmask
-      - git+https://github.com/dask/dask-labextension.git
-      - git+https://github.com/cogeotiff/rio-cogeo.git
+      - ipywidgets>=7.1.2
+      - numpy
+      - six
+      - zstandard
+      - ipywebrtc
+      - bqplot
+      - plotly>=3.3.0
