@@ -9,8 +9,9 @@ dependencies:
   - numpy
   - itk
   - ipywidgets=7.4.2
+  - widgetsnbextension
   - pip:
-      - widgetsnbextension
+      # - widgetsnbextension
       #- ipywidgets>=7.1.2
       - numpy
       - six

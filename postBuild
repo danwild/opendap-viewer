@@ -1,6 +1,6 @@
 # Docs: https://mybinder.readthedocs.io/en/latest/config_files.html#postbuild-run-code-after-installing-the-environment
 # https://ipywidgets.readthedocs.io/en/stable/user_install.html#frequently-asked-questions
-jupyter nbextension enable --py widgetsnbextension
+# jupyter nbextension enable --py widgetsnbextension
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust viewer.ipynb
