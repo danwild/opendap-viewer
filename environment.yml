@@ -5,7 +5,7 @@ channels:
 dependencies:
   - python=3.6
   - pip
-  - nodejs=11.14.0
+  - nodejs
   - numpy
   - itk
   - ipywidgets=7.4.2

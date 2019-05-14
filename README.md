@@ -16,7 +16,7 @@ Run locally (requires jupyter and conda install)
 ```
 conda env create -f environment.yml
 conda activate opendap-viewer
-jupyer notebook
+jupyter notebook
 ```
 
 ![Screenshot](/screenshots/gbr4.png?raw=true)
