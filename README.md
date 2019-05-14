@@ -11,6 +11,8 @@ conda activate opendap-viewer
 jupyer notebook
 ```
 
+![Screenshot](/screenshots/gbr4.png?raw=true)
+
 ## Example data
 
 Data shown for the Great Barrier Reef is pulled from [CSIRO's eReefs products](https://research.csiro.au/ereefs/)
