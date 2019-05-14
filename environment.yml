@@ -8,9 +8,10 @@ dependencies:
   - nodejs=11.14.0
   - numpy
   - itk
+  - ipywidgets=7.4.2
   - pip:
       - widgetsnbextension
-      - ipywidgets>=7.1.2
+      #- ipywidgets>=7.1.2
       - numpy
       - six
       - zstandard
