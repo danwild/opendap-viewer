@@ -8,6 +8,11 @@ to visualise 3D hydrodynamic model data in a Jupyter Notebook.
 ##### Option #1
 
 Run remotely via binder - follow the [badge link](https://binder.pangeo.io/v2/gh/danwild/opendap-viewer.git/master).
+You also need to run in a jupyter lab terminal:
+
+```
+jupyter labextension install @jupyter-widgets/jupyterlab-manager itk-jupyter-widgets
+```
 
 ##### Option #2
 
