@@ -3,7 +3,15 @@
 Example of using [itk-jupyter-widgets](https://github.com/InsightSoftwareConsortium/itk-jupyter-widgets), with Dask
 to visualise 3D hydrodynamic model data in a Jupyter Notebook.
 
-## Run (assuming you have jupyter and conda):
+## Run:
+
+##### Option #1
+
+Run remotely via binder - follow the [badge link](https://binder.pangeo.io/v2/gh/danwild/opendap-viewer.git/master).
+
+##### Option #2
+
+Run locally (requires jupyter and conda install)
 
 ```
 conda env create -f environment.yml
