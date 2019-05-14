@@ -11,11 +11,18 @@ dependencies:
   - ipywidgets=7.4.2
   - widgetsnbextension
   - pip:
-      # - widgetsnbextension
-      #- ipywidgets>=7.1.2
-      - numpy
-      - six
-      - zstandard
-      - ipywebrtc
       - bqplot
+      - dask
+      - distributed
+      - ipywebrtc
+      - itkwidgets
+      - itk-io
+      - matplotlib
+      - netCDF4
+      - numpy
       - plotly>=3.3.0
+      - toolz
+      - scikit-image
+      - six
+      - xarray
+      - zstandard
