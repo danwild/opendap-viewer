@@ -1,13 +1,18 @@
 #!/bin/bash
 
 # Docs: https://mybinder.readthedocs.io/en/latest/config_files.html#postbuild-run-code-after-installing-the-environment
-# https://ipywidgets.readthedocs.io/en/stable/user_install.html#frequently-asked-questions
-jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 itk-jupyter-widgets
 
 # Notebooks w/ extensions that auto-run code must be "trusted" to work the first time
 jupyter trust viewer.ipynb
 
 # enable dask labextension
+jupyter serverextension enable --py nbserverproxy --sys-prefix
+jupyter labextension install @jupyter-widgets/jupyterlab-manager@0.38 \
+                             @jupyterlab/hub-extension@0.12 \
+                             @pyviz/jupyterlab_pyviz \
+                             itk-jupyter-widgets \
+                             jupyter-leaflet
+
 git clone --single-branch -b serverextension https://github.com/ian-r-rose/dask-labextension.git
 cd dask-labextension
 npm install   # Install npm package dependencies
